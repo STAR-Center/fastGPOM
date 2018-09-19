@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <node pkg="gp_occ_mapping" type="gp_occ_map_offline.py" name="gp_occ_map" output="screen" required="true"/>
+
+</launch>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <param name="use_sim_time" value="true"/>
+
+    <include file="$(find gp_occ_mapping)/launch/stdr_data.launch"/>
+
+
+    <node pkg="gp_occ_mapping" type="gpom_online.py" name="gpom" output="screen" required="true">
+
+        <!-- <remap from="/scan" to="/robot0/laser_0"/> -->
+
+    </node>
+
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find gp_occ_mapping)/rviz/default.rviz"/>
+
+</launch>

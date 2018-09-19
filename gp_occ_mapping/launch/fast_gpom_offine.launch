@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <node pkg="gp_occ_mapping" type="fast_gpom_offline.py" name="fast_gpom" output="screen" required="true"/>
+
+</launch>

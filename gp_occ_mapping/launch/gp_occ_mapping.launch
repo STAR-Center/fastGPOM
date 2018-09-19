@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <!--<node pkg="gp_occ_mapping" type="odom_to_posestamped.py" name="odom_to_posestamped" output="screen" required="true"/>-->
+    <node pkg="gp_occ_mapping" type="gp_occ_map.py" name="gp_occ_map" output="screen" required="true"/>
+
+    <include file="$(find gp_occ_mapping)/launch/stdr_data.launch" />
+
+</launch>
