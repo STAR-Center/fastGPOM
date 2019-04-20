@@ -1,6 +1,21 @@
 # Fast-GPOM
 
+**Yuan, Y., Kuang, H. & Schwertfeger, S.** (2018). Fast Gaussian Process Occupancy Maps. In 2018 15th International Conference on Control, Automation, Robotics and Vision (ICARCV) (pp. 1502–1507). IEEE.
+
+
 This is our project folder for **Fast Gaussian Processes Occupancy Maps** that has been accepted by ICARCV2018. It is on top of [the implementation of Maani Ghaffari Jadidi](https://github.com/MaaniGhaffari/gp_occ_mapping).
+
+
+If you used this work in research, please cite:
+
+        @inproceedings{yuan2018fast,
+          title={Fast Gaussian Process Occupancy Maps},
+          author={Yuan, Yijun and Kuang, Haofei and Schwertfeger, S{\"o}ren},
+          booktitle={2018 15th International Conference on Control, Automation, Robotics and Vision (ICARCV)},
+          pages={1502--1507},
+          year={2018},
+          organization={IEEE}
+        }
 
 ## Step 1:  Setup Environment
 
@@ -153,3 +168,4 @@ You could see a fastgpom being generated without display. But it will save a .ma
 
 #### Others
 Some other launch file like  gpom_offline.launch gpom_online.launch is also available. You can use similar command to run it.
+
