@@ -3,7 +3,7 @@
 **Yuan, Y., Kuang, H. & Schwertfeger, S.** (2018). Fast Gaussian Process Occupancy Maps. In 2018 15th International Conference on Control, Automation, Robotics and Vision (ICARCV) (pp. 1502–1507). IEEE.
 
 
-This is our project folder for **Fast Gaussian Processes Occupancy Maps** that has been accepted by ICARCV2018. It is on top of [the implementation of Maani Ghaffari Jadidi](https://github.com/MaaniGhaffari/gp_occ_mapping).
+This is our project folder for **Fast Gaussian Processes Occupancy Maps**. Its implementation is on top of [the implementation of Maani Ghaffari Jadidi](https://github.com/MaaniGhaffari/gp_occ_mapping).
 
 
 If you used this work in research, please cite:
