@@ -117,7 +117,7 @@ class GPRMap(pyGPs.GPR):
         self.scan = scan
 
     def logistic_reg(self, mu, sigma, alpha=100, beta=0):
-        prob = norm.cdf((alpha*mu+beta)/(1+alpha**2*sigma))
+        prob = norm.cdf((alpha*mu+beta)/(1+(alpha*sigma)**2))
 #amap = copy.deepcopy(np.reshape(prob, (awidth, aheight)))
 #        amap_mu = copy.deepcopy(np.reshape(mu, (awidth, aheight)))
 #        asigma = copy.deepcopy(np.reshape(sigma, (awidth, height)))
